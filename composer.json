@@ -13,5 +13,10 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "nette/utils": "^2.3"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
 }
